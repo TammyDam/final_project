@@ -128,12 +128,6 @@ input {
 
 
 /*Search Bar*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-body{
-  background: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
-}
 
 .search {
   width: 100%;
@@ -157,21 +151,21 @@ body{
 }
 
 .searchButton {
-  width: 40px;
-  height: 36px;
-  border: 1px solid rgb(44, 121, 216);
+  width: 35px;
+  height: 28px;
+  border: .05px solid rgb(44, 121, 216);
   background: rgb(44, 121, 216);
   text-align: center;
   color: #fff;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 2.5px 2.5px 0;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
 .wrap{
   width: 30%;
-  position: absolute;
+  position: sticky;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
