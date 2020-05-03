@@ -1,4 +1,5 @@
 .tabs {
+<<<<<<< HEAD
     margin-bottom: -1px !important;
     position: relative;
     }
@@ -51,41 +52,132 @@
     }
 
 html, body {
+=======
+  margin-bottom: -1px !important;
+  position: relative;
+}
+.tab-content {
+  padding: 60px;
+  top: 197px;
+  color: #000;
+  background-color: white;
+}
+.tab-pane {
+  display: none;
+}
+.tab-pane.is-active {
+  display: block;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.is-active {
+  display: initial;
+}
+
+.cent {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+}
+
+/* CSS from http://embedresponsively.com */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  display: block;
+
+  font: 1.5rem "Fira Sans", sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+html,
+body {
+>>>>>>> 9eaf44d81aee3abacd9a7de7a7be8fe428dc5a77
   background: #f1f1f1;
-  font-family: 'Merriweather', sans-serif;
+  font-family: "Merriweather", sans-serif;
   padding: 1em;
 }
 
 h1 {
-   text-align: center;
-   color:rgb(44, 121, 216);
+  text-align: center;
+  color: black;
+  font-weight: bolder;
 }
+
+/* Documentation Page contact form */
 form {
-   max-width: 600px;
-   text-align: center;
-   margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
 }
-  input, textarea {
-     border:0; outline:0;
-     padding: 1em;
-     display: block;
-     width: 100%;
-     margin-top: 1em;
-     font-family: 'Merriweather', sans-serif;
-     resize: none;
-  }
-  textarea {
-      height: 126px;
-  }
+
+input {
+  width: 240px;
+}
 
 .half {
   float: left;
   width: 48%;
   margin-bottom: 1em;
 }
-.right { width: 50%; }
+.right {
+  width: 50%;
+}
 .left {
-     margin-right: 2%; 
+  margin-right: 2%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+  padding: 30px;
+
+}
+
+.contactHead {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cf p {
+  font-size: 15px;
+  font-weight: bold;
+  font-style: oblique 50deg;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.cf textarea {
+  width: 250px;
+  height: 100px;
 }
 
 
