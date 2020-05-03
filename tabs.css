@@ -71,13 +71,12 @@ html, body {
 h1 {
    text-align: center;
    color:rgb(44, 121, 216);
-  ;
 }
 form {
    max-width: 600px;
    text-align: center;
    margin: 20px auto;
-  
+}
   input, textarea {
      border:0; outline:0;
      padding: 1em;
@@ -90,7 +89,7 @@ form {
   textarea {
       height: 126px;
   }
-}
+
 .half {
   float: left;
   width: 48%;
