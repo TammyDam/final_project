@@ -52,11 +52,13 @@
 
     label {
         display: block;
-        font: 1rem 'Fira Sans', sans-serif;
+
+        font: 1.5rem 'Fira Sans', sans-serif;
     }
     
     input,
-    label {
+    label{
         margin: .4rem 0;
+
     }
     
