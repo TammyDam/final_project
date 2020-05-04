@@ -1,0 +1,17 @@
+{
+    "name": "mybulma",
+    "version": "1.0.0",
+    "main": "sass/mystyles.scss",
+    "license": "MIT",
+    "devDependencies": {
+      "bulma": "^0.7.2",
+      "node-sass": "^4.9.2"
+    },
+    "author": "Alicia Tammy",
+    "license": "CC-BY-SA-4.0",
+    "dependencies": {
+      "express": "^4.17.1",
+      "node-fetch": "^2.6.0"
+    }
+  }
+
