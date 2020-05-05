@@ -19,4 +19,4 @@ How Our Solution Works:
 
 Challenges and Impact of Design: One of the challenges we faced was understanding and implementing the Fetch API. Another challenge we faced was learning how to use Bulma.io and Leaflet. Since it was not introduced in class, we had to research ways to seamlessly incorporate it into our project. 
 
-Future Direction: 
+Future Direction: Some future directions would be to make a mobile app so it can be more accessible for users. We would also want to solve another information problems such as acessing the effect of the 2008-2013 recession and the effect of the COVID-19 pandemic. 
