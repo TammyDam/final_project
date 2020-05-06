@@ -75,13 +75,31 @@
 <div class=aboutUs>
     <p>About Us</p>
 </div>
-<div class="visualization">
-    <p>Visualization</p>
-    <div class=graph>
-    </div>
-</div>
-</div>
 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section class="hero hero-body">
 <h2 class="subtitle">Enter a zipcode or city IN ALL CAPS to get the permit info</h2> 
 <form id="zipForm">
@@ -102,32 +120,40 @@
   </form>
 </section>
 
+
+
+
+<div class="visualization">
+  <div id="chartContainer" style="height: 550px; width: 100%;"></div>
+  <div class=graph>
+  </div>
+</div>
+</div>
+
+
+
+
 <br>
 <div class="container">
   <div id="output"></div>
 
 
 
-  <!--Calling the map-->
+
+
+
+
+
+
+
+  <!--Calling the map
   <div class="container">
     <div class="wrapper">
       <div class="header">Frontend Libraries: Charts Lab</div>
       <div class="content">
         <div id="chartContainer" style="height: 550px; width: 100%;"></div>
       </div>
-<!--the body of the map ends here-->
-
-
-
-
-
-
-
-
-
-
-
-
+the body of the map ends here-->
 
 
 
@@ -279,6 +305,7 @@ function getLocationInfo(e) {
         console.log('Output: ', out);
         
 }).catch(err => console.error(err));
+}
 
 
  /* fetch('https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json/${zip}`)
