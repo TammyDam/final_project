@@ -52,10 +52,7 @@
         </div>
     </section>
 </div>
-
-
 </div>
-
 
 <section class="hero hero-body">
 <h2 class="subtitle">Search by ZIP or city IN ALL CAPS to get permit info</h2> 
@@ -77,9 +74,6 @@
   </form>
 </section>
 
-
-
-
 <div class="visualization">
   <div id="chartContainer" style="height: 550px; width: 100%;"></div>
   <div class=graph>
@@ -91,17 +85,10 @@
 <div class="container">
   <div id="output"></div>
 
-
 <!--The Script for the map -->
-
-
-
 <script>
 // Replace this variable x with the input 
   const x = 'BOWIE';
-
-
-
     fetch("https://data.princegeorgescountymd.gov/resource/weik-ttee.json") // replace this with the food safety data set
       .then((response) => {
         console.log("response information", response);
@@ -213,7 +200,6 @@ function getLocationInfo(e) {
         
 }).catch(err => console.error(err));
 }
-
 
  /* fetch('https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json/${zip}`)
     .then(response => {
