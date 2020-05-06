@@ -75,6 +75,31 @@
 <div class=aboutUs>
     <p>About Us</p>
 </div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 -->
@@ -99,10 +124,13 @@
   </form>
 </section>
 
+
+
+
 <div class="visualization">
-    <div class="graph">
-        <div id="chartContainer" style="height: 550px; width: 100%;"></div>
-    </div>
+  <div id="chartContainer" style="height: 550px; width: 100%;"></div>
+  <div class=graph>
+  </div>
 </div>
 
 
@@ -124,9 +152,50 @@
 
 
 
+<br>
+<div class="container">
+  <div id="output"></div>
 
 
 
+
+
+
+
+
+
+
+  <!--Calling the map
+  <div class="container">
+    <div class="wrapper">
+      <div class="header">Frontend Libraries: Charts Lab</div>
+      <div class="content">
+        <div id="chartContainer" style="height: 550px; width: 100%;"></div>
+      </div>
+the body of the map ends here-->
+
+
+
+
+<!-- Script for User Input and Map
+<script>
+var link = 'https://data.princegeorgescountymd.gov/resource/weik-ttee.json'
+
+function setup({
+  var button = select('#submit');
+  button.something(somethingg);
+}
+function somthingg(){
+  var url = link + city;
+  loadJSON(url, data);
+
+}
+function data(dataa){
+  somethingg = data;
+}
+
+</script>
+-->
 
 
 
@@ -150,7 +219,7 @@
 
 
 
-    fetch(" https://data.princegeorgescountymd.gov/resource/weik-ttee.json") // replace this with the food safety data set
+    fetch("https://data.princegeorgescountymd.gov/resource/weik-ttee.json") // replace this with the food safety data set
       .then((response) => {
         console.log("response information", response);
         return response;
@@ -283,6 +352,7 @@ function getLocationInfo(e) {
         console.log('Output: ', out);
         
 }).catch(err => console.error(err));
+}
 
 
  /* fetch('https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json/${zip}`)
