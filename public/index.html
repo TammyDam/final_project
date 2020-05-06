@@ -51,15 +51,43 @@
             </div>
         </div>
     </section>
+<!--
+    <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="Search">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+     <div class = wrapper>
+<div class="category">
+    <ul>
+        <li>Permit Category</li><br>
+        <li>County Agency</li><br>
+        <li>Permit Case ID</li><br>
+        <li>Permit Case Year</li><br>
+        <li>Permit Type</li><br>
+        <li>Case Name</li><br>
+        <li>Location</li><br>
+    </ul>
+</div>
+<div class=aboutUs>
+    <p>About Us</p>
+</div>
+<div class="visualization">
+    <p>Visualization</p>
+    <div class=graph>
+    </div>
 </div>
 </div>
-
+-->
 <section class="hero hero-body">
-<h2 class="subtitle">Search by ZIP or city IN ALL CAPS to get permit info</h2> 
+<h2 class="subtitle">Enter a zipcode or city IN ALL CAPS to get the permit info</h2> 
 <form id="zipForm">
     <div class="field">
       <div class="control has-icons-left has-icons-right">
-        <input class="input zip is-large" type="text" placeholder="i.e. 20740 or BELTSVILLE">
+        <input class="input zip is-large" type="text" placeholder="Enter Zipcode">
         <span class="icon is-small is-left">
             <i class="fa fa-map-pin"></i>
           </span>
@@ -78,11 +106,47 @@
 <div class="container">
   <div id="output"></div>
 
+
+
+  <!--Calling the map-->
+  <div class="container">
+    <div class="wrapper">
+      <div class="header">Frontend Libraries: Charts Lab</div>
+      <div class="content">
+        <div id="chartContainer" style="height: 550px; width: 100%;"></div>
+      </div>
+<!--the body of the map ends here-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--The Script for the map -->
+
+
+
 <script>
 // Replace this variable x with the input 
   const x = 'BOWIE';
-    fetch("https://data.princegeorgescountymd.gov/resource/weik-ttee.json") // replace this with the food safety data set
+
+
+
+    fetch(" https://data.princegeorgescountymd.gov/resource/weik-ttee.json") // replace this with the food safety data set
       .then((response) => {
         console.log("response information", response);
         return response;
@@ -170,6 +234,15 @@
 <!--Script for the map ends here-->
 
 
+
+
+
+
+
+
+
+
+
 <script>
     //Listen for submit
     document.querySelector('#zipForm').addEventListener
@@ -252,5 +325,22 @@ function deleteLocation(e) {
 };
 */
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 </body>
 </html>
