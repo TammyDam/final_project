@@ -18,10 +18,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "node-fetch": "^2.6.0"
-  }
-}
- 
-{
+  },
+
 "scripts": {
       "css-build": "node-sass _sass/main.scss css/main.css",
       "css-deploy": "npm run css-build && npm run css-postcss",
