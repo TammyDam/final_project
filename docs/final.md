@@ -16,6 +16,6 @@ Technical System Rationale: Before using Bulma, our team decided to use Bootstra
 
 How Our Solution Works: By being able to provide our users with additional visualization tools such as a map can offer them more insight on what types of permits exist within PG county as well as enabling them the ability to gauge how many companies and types of companies are within PG county. This can provide them additonal information on whether or not they should start or expand their business within PG county. 
 
-Challenges and Impact of Design: We had several challenges when creating this web application from misunderstanding the capability of the front-end libraries to implementing all of knowledge from Labs 8, 9, and 10 to work well together and work well with Bulma. We understood Labs
+Challenges and Impact of Design: We had several challenges when creating this web application from misunderstanding the capability of the front-end libraries to implementing all of knowledge from Labs 8, 9, and 10 to work well together and work well with Bulma. 
 
 Future Direction: Some future directions would be to make a mobile app so it can be more accessible for users. We would also want to solve another information problems such as acessing the effect of the 2008-2013 recession and the effect of the COVID-19 pandemic. 
