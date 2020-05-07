@@ -1,3 +1,6 @@
-{
-  "presets": ["es2015-ie"]
+// in .babelrc
+{   
+  "presets": [
+    "@babel/preset-env"   
+  ] 
 }
