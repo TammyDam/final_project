@@ -82,6 +82,13 @@
 </div>
 </div>
 -->
+
+
+
+
+
+
+
 <section class="hero hero-body">
 <h2 class="subtitle">Enter a zipcode or city IN ALL CAPS to get the permit info</h2> 
 <form id="zipForm">
@@ -108,45 +115,48 @@
 
 
 
-  <!--Calling the map-->
-  <div class="container">
-    <div class="wrapper">
-      <div class="header">Frontend Libraries: Charts Lab</div>
-      <div class="content">
-        <div id="chartContainer" style="height: 550px; width: 100%;"></div>
+
+
+
+<!--Code for input-->
+
+  <input placeholder="Enter some text" id="name"/>
+  <p id="log"> </p>
+  <button onclick="myFunction()">Click me</button>
+
+
+  <!--The Container for the chart -->
+
+<div class="visualization">
+  <div id="chartContainer" style="height: 550px; width: 100%;"></div>
+  <div class=graph>
+  </div>
       </div>
-<!--the body of the map ends here-->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--The Script for the map -->
+<!--The Script for the chart -->
 
 
 
 <script>
+
+
+
+// Input Query
+
+let x;
+function myFunction()
+{
+  x = document.getElementById("name").value; 
+  console.log('Value of x',x);
+
 // Replace this variable x with the input 
-  const x = 'BOWIE';
+  
 
 
 
-    fetch(" https://data.princegeorgescountymd.gov/resource/weik-ttee.json") // replace this with the food safety data set
+fetch(" https://data.princegeorgescountymd.gov/resource/weik-ttee.json") // replace this with the food safety data set
       .then((response) => {
         console.log("response information", response);
         return response;
@@ -229,6 +239,28 @@
           e.chart.render();
         }
       });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
   </script>
 
 <!--Script for the map ends here-->
@@ -244,6 +276,7 @@
 
 
 <script>
+  /*
     //Listen for submit
     document.querySelector('#zipForm').addEventListener
     ('submit', getLocationInfo);
@@ -266,6 +299,7 @@ function getLocationInfo(e) {
         
 }).catch(err => console.error(err));
 }
+*/
 
  /* fetch('https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json/${zip}`)
     .then(response => {
