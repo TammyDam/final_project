@@ -55,7 +55,7 @@
       </textarea><br />
       <button id="formBtn">Submit</button>
       <br/>
-      
+      <button id="getBtn">Retrieve Data</button>
 
     </form>
   </div>
@@ -92,13 +92,31 @@
       }
       
 
+      fetch("/api", {
+        method: "Get"
+      })
+      .then((data) => data.json()) 
+        .then((jsonresponse) => {
+          btn.setAttribute("disabled", true); 
 
+      const ol = document.createElement("ol");
+      target.append(ol);
+
+      for(i = 0; i < jsonresponse.length; i++){
+        const li = document.createElement("li"); 
+            li.innerHTML = jsonresponse[i]["name"];
+            ol.append(li); 
+
+          }
+        })
+      }
       
 
       const formBtn = document.querySelector("#formBtn");
       formBtn.addEventListener("click", sendForm);
 
-   
+      const getBtn = document.querySelector("#getBtn");
+      getBtn.addEventListener("click", getData);
 
     </script>
 
