@@ -9,21 +9,16 @@ provides a fulll list of residential and commericial permits that we will use to
 area in PG County that is best suited to start their specific business. This helps users find the least amount of competitors 
 by cross referencing permit types and cities. 
 
-# Heroku link
+# Heroku Link
 
 https://pg-permits-final-project.herokuapp.com/index.html
 
 # Target Browsers
 Our application is built to be adaptable on browers and mobile devices. We have tested our application on Chrome using Windows, iOS, and Android. The current versions are listed:
 
-* Bullet list
-    * Nested bullet
-        * Sub-nested bullet etc
-* Bullet list item 2
-
-Markup : *Chrome (Version 81.0.4044.129) on Windows 10 (Version 10.0.17763 Build 17763)
-Markup : *Chrome (Version 81.0.4044.124) on iOS 13.3.1
-Markup : * Chrome (Version 81.0.4044.117) on Android (Version 10.0
+* Chrome (Version 81.0.4044.129) on Windows 10 (Version 10.0.17763 Build 17763)
+* *Chrome (Version 81.0.4044.124) on iOS 13.3.1
+* Chrome (Version 81.0.4044.117) on Android (Version 10.0)
 
 # User Manual Link
 
