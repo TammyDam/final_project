@@ -39,34 +39,69 @@
     </div>
   </section>
 
-        <div class = "contactHead" id="contactFormHead"><h1>Contact Us</h1></div>
-        <div class="field">
-            <label class="label">Name</label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Jane Doe">
-            </div>
-          </div>
-          
-          <div class="field">
-            <label class="label">Email</label>
-            <div class="control has-icons-left has-icons-right">
-              <input class="input" type="email" placeholder="Jane.Doe@example.com">
-              <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-              </span>
-            </div>
-       
-          <div class="field">
-            <label class="label">Message</label>
-            <div class="control">
-              <textarea class="textarea" placeholder="Explain why you would like to join our team"></textarea>
-            </div>
-          </div>
-          <div class="control">
-            <button class="button is-link">Submit</button>
-          </div>
+  <div>
+    <form class="targetForm" id="labForm">
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="zipcode">Zip Code</label>
+      <input type = "text" id ="zipcode" name="zipcode"/>
     
+   
+      <label for="interests">Interests</label>
+      <textarea id="interests" name="interests" rows="5" cols="33">
+          Default text says what?
+      </textarea><br />
+      <button id="formBtn">Submit</button>
+      <br/>
+      
+
+    </form>
+  </div>
+
+
     </section>
+    <script>
+      function sendForm(e) {
+        e.preventDefault(); // this prevents your page reloading on button click
+        const target = document.querySelector("#labForm");
+        const btn = document.querySelector("#formBtn");
+
+        const formToSend = new FormData(target);
+
+        fetch("/api", {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(Object.fromEntries(formToSend)),
+        })
+
+
+        .then((data) => data.json())
+          .then((jsonresponse) => {
+
+           const msg = document.createElement("p")
+            msg.innerHTML = jsonresponse["message"]
+            target.append(msg)
+
+            btn.setAttribute("disabled", true); 
+          })
+    
+      }
+      
+
+
+      
+
+      const formBtn = document.querySelector("#formBtn");
+      formBtn.addEventListener("click", sendForm);
+
+   
+
+    </script>
+
 
 </body>
 </html>
