@@ -14,7 +14,7 @@ by cross referencing permit types and cities.
 https://pg-permits-final-project.herokuapp.com/index.html
 
 # Target Browsers
-Our application is built to be adaptable on browers and mobile devices. We have tested our application on Chrome using Windows, iOS, and Android. The current versions are listed:
+Our application is built to be adaptable on browers and mobile devices. Bulma is compatible with recent versions of Chrome, Edge, Firefox, Opera, and Safari. So far, we have tested our application on Chrome using Windows, iOS, and Android. The current versions are listed:
 
 * Chrome (Version 81.0.4044.129) on Windows 10 (Version 10.0.17763 Build 17763)
 * *Chrome (Version 81.0.4044.124) on iOS 13.3.1
@@ -26,11 +26,43 @@ https://github.com/TammyDam/final_project/blob/master/docs/user.md
 
 # Developer Manual 
 
-## Installation and Dependencies 
+## Installation and Dependencies
+### Bulma Installation
+Bulma is a modern CSS framework based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
+
+#### NPM
+
+```sh
+npm install bulma
+```
+
+**or**
+
+#### Import
+After installation, you can import the CSS file into your project using this snippet:
+
+```sh
+import 'bulma/css/bulma.css'
+```
+
+### Dependencies
+
+The `npm` dependencies included in `package.json` are:
+
+* babel-cli, babel-core, babel-node, babel-present-env for compiling ES6 JavaScript files
 
 
+## Running The Application on Server
+
+## Testing 
+
+## API
+
+## Known Bugs
 
 ## Future Development
+
+
 
 
 The audience of this document is future developers who will take over your system.
