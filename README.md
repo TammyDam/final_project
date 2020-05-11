@@ -22,6 +22,7 @@ Our application is built to be adaptable on browers and mobile devices. We have 
 
 # Link to User Manual
 
+Here is the link to our User Manual: https://github.com/TammyDam/final_project/blob/master/docs/user.md
 
 # Link to Developer Manual
 # Developer Manual (bottom half of your README.md)
