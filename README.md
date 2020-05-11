@@ -10,6 +10,7 @@ area in PG County that is best suited to start their specific business. This hel
 by cross referencing permit types and cities. 
 
 # Link to the Heroku instance where your application can be used
+https://pg-permits-final-project.herokuapp.com/index.html
 # Description of target browsers (iOS? Android? Which ones? Which versions?)
 # Link to User Manual
 # Link to Developer Manual
