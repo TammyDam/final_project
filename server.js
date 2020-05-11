@@ -50,8 +50,18 @@ app.route("/api")
       })
       .catch((err) => {
         console.log(err);
-      });
+      })
+      .put((req, res)) => {
+        console.log(put)
+      }
     }
+    
+    .put((req, res))=> {
+      console.log("/api put request", req.body);
+        if(err) {
+          return console.log(err.message); 
+        }
+        res.json({result:"Your form has been stored"});
   });
 
 app.listen(port, () => {
