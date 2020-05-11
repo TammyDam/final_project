@@ -56,13 +56,14 @@ app.route("/api")
       }
     }
     
-    .put((req, res))=> {
+    /*.put((req, res))=> {
       console.log("/api put request", req.body);
         if(err) {
           return console.log(err.message); 
         }
         res.json({result:"Your form has been stored"});
-  });
+  });*/
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}!`);
