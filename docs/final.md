@@ -2,7 +2,7 @@ Residential and Commercial Permits in PG County
 
 Team Members: Alicia Wang, Tammy Dam, Rachel Kim, Tanishq Kaushik, and Robert York
 
-Link to app: Need to add.
+Link to app: https://pg-permits-final-project.herokuapp.com/index.html
 
 Information problem: To help companies that want to start their business to find areas with least amount of competitors cross referencing permit types and cities.
 
