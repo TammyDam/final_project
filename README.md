@@ -21,6 +21,8 @@ Our application is built to be adaptable on browers and mobile devices. We have 
 -Chrome (Version 81.0.4044.117) on Android (Version 10.0
 
 # Link to User Manual
+
+
 # Link to Developer Manual
 # Developer Manual (bottom half of your README.md)
 
