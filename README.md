@@ -10,8 +10,16 @@ area in PG County that is best suited to start their specific business. This hel
 by cross referencing permit types and cities. 
 
 # Link to the Heroku instance where your application can be used
+
 https://pg-permits-final-project.herokuapp.com/index.html
+
 # Description of target browsers (iOS? Android? Which ones? Which versions?)
+Our application is built to be adaptable on browers and mobile devices. We have tested our application on Chrome using Windows, iOS, and Android. The current versions are listed:
+
+-Chrome (Version 81.0.4044.129) on Windows 10 (Version 10.0.17763 Build 17763)
+-Chrome (Version 81.0.4044.124) on iOS 13.3.1
+-Chrome (Version 81.0.4044.117) on Android (Version 10.0
+
 # Link to User Manual
 # Link to Developer Manual
 # Developer Manual (bottom half of your README.md)
