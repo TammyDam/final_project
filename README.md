@@ -24,10 +24,9 @@ Our application is built to be adaptable on browers and mobile devices. We have 
 
 https://github.com/TammyDam/final_project/blob/master/docs/user.md
 
-# Link to Developer Manual
-# Developer Manual (bottom half of your README.md)
+# Developer Manual 
 
-<h1> Browsers <h1>
+<h1> Installation and Dependencies <h1>
 
 
 The audience of this document is future developers who will take over your system.
