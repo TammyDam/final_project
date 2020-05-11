@@ -17,7 +17,7 @@ https://pg-permits-final-project.herokuapp.com/index.html
 Our application is built to be adaptable on browers and mobile devices. Bulma is compatible with recent versions of Chrome, Edge, Firefox, Opera, and Safari. So far, we have tested our application on Chrome using Windows, iOS, and Android. The current versions are listed:
 
 * Chrome (Version 81.0.4044.129) on Windows 10 (Version 10.0.17763 Build 17763)
-* *Chrome (Version 81.0.4044.124) on iOS 13.3.1
+* Chrome (Version 81.0.4044.124) on iOS 13.3.1
 * Chrome (Version 81.0.4044.117) on Android (Version 10.0)
 
 # User Manual Link
