@@ -26,7 +26,7 @@ https://github.com/TammyDam/final_project/blob/master/docs/user.md
 
 # Developer Manual 
 
-<h1> Installation and Dependencies <h1>
+## Installation and Dependencies 
 
 
 The audience of this document is future developers who will take over your system.
