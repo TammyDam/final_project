@@ -91,6 +91,10 @@
     
       }
       
+      function getData(f){
+        f.preventDefault();
+        const target = document.querySelector("#labForm");
+        const btn = document.querySelector("#formBtn");
 
       fetch("/api", {
         method: "Get"
@@ -110,7 +114,6 @@
           }
         })
       }
-      
 
       const formBtn = document.querySelector("#formBtn");
       formBtn.addEventListener("click", sendForm);
