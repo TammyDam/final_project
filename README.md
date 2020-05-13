@@ -62,9 +62,10 @@ For testers, go to Heroku to run the website to see the output. If it does not w
 For users, go to the website link and navigate to the 'Home' tab and type your PG county city in all CAPS into the search bar and press the 'Search' button. For instance, if you wanted to look up 'College Park' then you would type 'COLLEGE PARK' into the search bar and click 'Submit'.
 
 ## API
-
+The API for our server application includes a GET, POST, and PUT endpoint. The GET endpoint receives information from the data source. The POST tells us over here on our server console what has happened and sends our response. It tells you if it succeeded or failed. The PUT endpoint 
 
 ## Known Bugs
+
 
 ## Future Development
 1. Create a mobile application
