@@ -10,7 +10,6 @@ area in PG County that is best suited to start their specific business. This hel
 by cross referencing permit types and cities. 
 
 # Heroku Link
-
 https://pg-permits-final-project.herokuapp.com/index.html
 
 # Target Browsers
@@ -21,12 +20,12 @@ Our application is built to be adaptable on browers and mobile devices. Bulma is
 * Chrome (Version 81.0.4044.117) on Android (Version 10.0)
 
 # User Manual Link
-
 https://github.com/TammyDam/final_project/blob/master/docs/user.md
 
 # Developer Manual 
 
 ## Installation and Dependencies
+
 ### Bulma Installation
 Bulma is a modern CSS framework based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
 
@@ -46,24 +45,36 @@ import 'bulma/css/bulma.css'
 ```
 
 ### Dependencies
-
 The `npm` dependencies included in `package.json` are:
 
 * babel-cli, babel-core, babel-node, babel-present-env for compiling ES6 JavaScript files
 
 
 ## Running The Application on Server
+Open your terminal or command line and type in 'npm start' to run your server files
 
 ## Testing 
+For testers, go to Heroku to run the website to see the output. If it does not work then right click the website and inspect its issues.
+
+For users, go to the website link and navigate to the 'Home' tab and type your PG county city in all CAPS into the search bar and press the 'Search' button. For instance, if you wanted to look up 'College Park' then you would type 'COLLEGE PARK' into the search bar and click 'Submit'.
 
 ## API
+The API for our server application includes a GET, POST, and PUT endpoint. The GET endpoint receives information from the data source. The POST tells us over here on our server console what has happened and sends our response. It tells you if it succeeded or failed. The PUT endpoint 
 
 ## Known Bugs
 
 
 ## Future Development
-
-
+1. Create a mobile application
+2. Solve other information problems such as:
+*  The effect of the 2008-2013 recession
+    * Basis of different months
+    * How many permits were issued
+    * What types of permits were issued
+* The effect of the outgoing COVID-19 pandemic from January 2020-April 2020
+    * If permit sales were effected
+        * Filter by city
+    * What types of permits were issued
 
 
 The audience of this document is future developers who will take over your system.

@@ -16,7 +16,7 @@ The About Page provides information for those that are interested to learn more 
 
 # Documentation Page
 
-Our Documentation Page contains a form for those who are interested in reaching out and contacting our team for information, assistance, etc. They will include their name, email, and why they are interested in joining our team.  Furthermore, the documentation page will be used to have developers that may be interested in our project and would like to learn more about it. 
+Our Documentation Page contains a form for those who are interested in reaching out and contacting our team for information, assistance, etc. They will include their name, email, and why they are interested in joining our team.  Furthermore, the documentation page will be used by developers that may be interested in our project and would like to learn more about it. 
 
 
 
