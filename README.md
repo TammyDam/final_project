@@ -57,9 +57,10 @@ The `npm` dependencies included in `package.json` are:
 Open your terminal or command line and type in 'npm start' to run your server files
 
 ## Testing 
-
+Go to Heroku to run the website to see the output. If it does not work then right click the website and inspect its issues.
 
 ## API
+
 
 ## Known Bugs
 
