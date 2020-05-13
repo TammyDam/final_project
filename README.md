@@ -58,13 +58,13 @@ Open your terminal or command line and type in 'npm start' to run your server fi
 ## Testing 
 To test for permit information, we have included two ways to test for that within our web application. 
 
-To test PG county city names for permit information go to the website link and navigate to the 'Home' tab and type your PG county city in all CAPS into the search bar and press the 'Search' button. 
+The first way is to input PG county city names in order to retrieve permit information. To do this, users must go to the website link and navigate to the 'Home' tab and type your PG county city in all CAPS into the search bar and press the 'Search' button. 
 * Some sample city names to test out:
     * 'COLLEGE PARK'
     * 'HYATTSVILLE'
     * 'LAUREL'
 
-To test PG permit types to retrieve information pertaining to each of them specifically go to the website link and navigate to the 'Home' tab and type your PG permit type in all CAPS into the search bar and press the 'Search' button. 
+The second way to get permit statistics is to enter a the name of a type to retrieve information pertaining to each of them specifically. To do this, users must go to the website link and navigate to the 'Home' tab and type your PG permit type in all CAPS into the search bar and press the 'Search' button. 
 * Some sample permit types to test out:
     * 'DPIE EC'
     * 'FIRW'
