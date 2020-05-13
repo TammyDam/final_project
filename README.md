@@ -59,12 +59,11 @@ Open your terminal or command line and type in 'npm start' to run your server fi
 ## Testing 
 To test for permit information, we have included two ways to test for that within our web application. 
 
-Testing city name for permit information.
-1. Go to the website link and navigate to the 'Home' tab and type your PG county city in all CAPS into the search bar and press the 'Search' button. 
-    Some sample city names to test out:
-    <li> 'COLLEGE PARK'</li>
-    <li> 'HYATTSVILLE'</li>
-    <li> 'LAUREL' </li>
+Testing city name for permit information. Go to the website link and navigate to the 'Home' tab and type your PG county city in all CAPS into the search bar and press the 'Search' button. 
+* Some sample city names to test out:
+    * 'COLLEGE PARK'
+    * 'HYATTSVILLE'
+    * 'LAUREL'
 
 ## API
 The API for our server application includes a GET, POST, and PUT endpoint. The GET endpoint receives information from the data source. The POST tells us over here on our server console what has happened and sends our response. It tells you if it succeeded or failed. The PUT endpoint 
