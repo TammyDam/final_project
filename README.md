@@ -65,7 +65,16 @@ Open your terminal or command line and type in 'npm start' to run your server fi
 
 ## Future Development
 
-
+1. Create a mobile application
+2. Solve other information problems such as:
+*  The effect of the 2008-2013 recession
+    * Basis of different months
+    * How many permits were issued
+    * What types of permits were issued
+* The effect of the outgoing COVID-19 pandemic from January 2020-April 2020
+    * If permit sales were effected
+        * Filter by city
+    * What types of permits were issued
 
 
 The audience of this document is future developers who will take over your system.
