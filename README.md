@@ -10,7 +10,6 @@ area in PG County that is best suited to start their specific business. This hel
 by cross referencing permit types and cities. 
 
 # Heroku Link
-
 https://pg-permits-final-project.herokuapp.com/index.html
 
 # Target Browsers
@@ -21,7 +20,6 @@ Our application is built to be adaptable on browers and mobile devices. Bulma is
 * Chrome (Version 81.0.4044.117) on Android (Version 10.0)
 
 # User Manual Link
-
 https://github.com/TammyDam/final_project/blob/master/docs/user.md
 
 # Developer Manual 
@@ -47,7 +45,6 @@ import 'bulma/css/bulma.css'
 ```
 
 ### Dependencies
-
 The `npm` dependencies included in `package.json` are:
 
 * babel-cli, babel-core, babel-node, babel-present-env for compiling ES6 JavaScript files
@@ -67,7 +64,6 @@ For users, go to the website link and navigate to the 'Home' tab and type your P
 ## Known Bugs
 
 ## Future Development
-
 1. Create a mobile application
 2. Solve other information problems such as:
 *  The effect of the 2008-2013 recession
