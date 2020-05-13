@@ -30,7 +30,6 @@ https://github.com/TammyDam/final_project/blob/master/docs/user.md
 Bulma is a modern CSS framework based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
 
 #### NPM
-
 ```sh
 npm install bulma
 ```
@@ -59,11 +58,17 @@ Open your terminal or command line and type in 'npm start' to run your server fi
 ## Testing 
 To test for permit information, we have included two ways to test for that within our web application. 
 
-Testing city name for permit information. Go to the website link and navigate to the 'Home' tab and type your PG county city in all CAPS into the search bar and press the 'Search' button. 
+The first way is to input PG county city names in order to retrieve permit information. To do this, users must go to the website link and navigate to the 'Home' tab and type your PG county city in all CAPS into the search bar and press the 'Search' button. 
 * Some sample city names to test out:
     * 'COLLEGE PARK'
     * 'HYATTSVILLE'
     * 'LAUREL'
+
+The second way to get permit statistics is to enter a the name of a type to retrieve information pertaining to each of them specifically. To do this, users must go to the website link and navigate to the 'Home' tab and type your PG permit type in all CAPS into the search bar and press the 'Search' button. 
+* Some sample permit types to test out:
+    * 'DPIE EC'
+    * 'FIRW'
+    * 'RW'
 
 ## API
 The API for our server application includes a GET, POST, and PUT endpoint. The GET endpoint receives information from the data source. The POST tells us over here on our server console what has happened and sends our response. It tells you if it succeeded or failed. The PUT endpoint 
@@ -82,14 +87,3 @@ The API for our server application includes a GET, POST, and PUT endpoint. The G
     * If permit sales were effected
         * Filter by city
     * What types of permits were issued
-
-
-The audience of this document is future developers who will take over your system.
-They know technical terms and have general knowledge about web applications, but do not have knowledge about your system design.
-You need to provide a technical document so that future developers can start setting up the application on their local machines, and keep working on the system development after you leave the team.
-Your Developer Manual covers:
-How to install your application and all dependencies
-How to run your application on a server
-How to run any tests you have written for your software
-The API for your server application - all GET, POST, PUT, etc endpoints, and what they each do
-A clear set of expectations around known bugs and a road-map for future development.
