@@ -27,6 +27,7 @@ https://github.com/TammyDam/final_project/blob/master/docs/user.md
 # Developer Manual 
 
 ## Installation and Dependencies
+
 ### Bulma Installation
 Bulma is a modern CSS framework based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
 
@@ -53,8 +54,10 @@ The `npm` dependencies included in `package.json` are:
 
 
 ## Running The Application on Server
+Open your terminal or command line and type in 'npm start' to run your server files
 
 ## Testing 
+
 
 ## API
 
