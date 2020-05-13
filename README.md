@@ -46,17 +46,25 @@ import 'bulma/css/bulma.css'
 
 ### Dependencies
 The `npm` dependencies included in `package.json` are:
-
 * babel-cli, babel-core, babel-node, babel-present-env for compiling ES6 JavaScript files
+
+We decided to incorporate ESlint for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs. 
+
+We also incorporated SQLite as a storage format for our contact form. We used it to retrieve data written in our contact form. 
 
 
 ## Running The Application on Server
 Open your terminal or command line and type in 'npm start' to run your server files
 
 ## Testing 
-For testers, go to Heroku to run the website to see the output. If it does not work then right click the website and inspect its issues.
+To test for permit information, we have included two ways to test for that within our web application. 
 
-For users, go to the website link and navigate to the 'Home' tab and type your PG county city in all CAPS into the search bar and press the 'Search' button. For instance, if you wanted to look up 'College Park' then you would type 'COLLEGE PARK' into the search bar and click 'Submit'.
+Testing city name for permit information.
+1. Go to the website link and navigate to the 'Home' tab and type your PG county city in all CAPS into the search bar and press the 'Search' button. 
+    Some sample city names to test out:
+    <li> 'COLLEGE PARK'</li>
+    <li> 'HYATTSVILLE'</li>
+    <li> 'LAUREL' </li>
 
 ## API
 The API for our server application includes a GET, POST, and PUT endpoint. The GET endpoint receives information from the data source. The POST tells us over here on our server console what has happened and sends our response. It tells you if it succeeded or failed. The PUT endpoint 

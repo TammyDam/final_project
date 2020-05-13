@@ -12,7 +12,7 @@ The Home Page is where users will be able to search up cities in PG county which
 
 # About Page
 
-The About Page provides information for those that are interested to learn more about our application. It includes our information problem, stakeholders, and those who worked on the project. 
+The About Page provides information for those that are interested to learn more about our application. It includes our information problem, stakeholders, and those who worked on the project. We have included the team members and their roles for the project. The picture we've inlcuded tells a little about the team member. 
 
 # Documentation Page
 
