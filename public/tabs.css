@@ -289,15 +289,26 @@ h3 {
 /* table css*/
 .info {
   padding-top: 40px;
+  width: 70%;
+  display: flex;
+  padding-right: 50px;
+
 }
 
 table,
 td {
   border: 1px solid #333;
+  padding: 20px;
+  background-color: #F0F0F0;
 }
 
 thead,
 tfoot {
-  background-color: rgb(149, 197, 255);
+  background-color: rgba(108, 174, 255, 0.589);
   color: #fff;
+}
+
+.documentationflex {
+  display: flex;
+  flex-direction: row;
 }
