@@ -46,8 +46,11 @@ import 'bulma/css/bulma.css'
 
 ### Dependencies
 The `npm` dependencies included in `package.json` are:
-
 * babel-cli, babel-core, babel-node, babel-present-env for compiling ES6 JavaScript files
+
+We decided to incorporate ESlint for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs. 
+
+We also incorporated SQLite as a storage format for our contact form. We used it to retrieve data written in our contact form. 
 
 
 ## Running The Application on Server
