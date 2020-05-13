@@ -74,7 +74,7 @@ The second way to get permit statistics is to enter a the name of a type to retr
 The API for our server application includes a GET, POST, and PUT endpoint. The GET endpoint receives information from the data source. The POST tells us over here on our server console what has happened and sends our response. It tells you if it succeeded or failed. The PUT endpoint 
 
 ## Known Bugs
-
+Sqlite3 would need to be improved and a better get request for data retrevial. There is a known bug with the database get request
 
 ## Future Development
 1. Create a mobile application
