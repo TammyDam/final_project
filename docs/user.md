@@ -8,7 +8,7 @@ Head to our application through this link: https://pg-permits-final-project.hero
 
 # Home Page
 
-The Home Page is where users will be able to search up cities in PG county which will display a chart of the permit type distribution in Bowie and their percentage distribution. The home page can be used by pressing the search bar and entering the name of a city in PG county in all caps. For example, "HYATTSVILE" is a city that one can enter into the system which will yield the chart mentioned above. 
+The Home Page is where users will be able to search up cities in PG county which will display a chart of the permit type distribution in Bowie and their percentage distribution. The home page can be used by pressing the search bar and entering the name of a city in PG county in all caps. For example, "HYATTSVILE" is a city that one can enter into the system which will yield the chart mentioned above. We have also included another chart that uses the permit category to show the distribution of that permit type by each city in PG County. For example, searching "MEC" will return a donut chart of Upper Marlboro having 22.22%, Capitol Heights containing 11.11% of MEC permits, and more. 
 
 # About Page
 
