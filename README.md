@@ -42,6 +42,7 @@ const dbSettings = {
 * Step 3. Install the dependencies through node
 * Step 4. Make sure the server is working on localhost 
 * Step 5. Push the server once it works to build it on Heroku
+
 ### Bulma Installation
 Bulma is a modern CSS framework based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
 
