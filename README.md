@@ -25,8 +25,8 @@ https://github.com/TammyDam/final_project/blob/master/docs/user.md
 # Developer Manual 
 A few items:
 
-Item 1. Change the attributes in the package.json file to fit your needs and system requirements
-Item 2. Additonally modify server.js to make sure
+*Item 1. Change the attributes in the package.json file to fit your needs and system requirements
+*Item 2. Additonally modify server.js to make sure
 that the database is linked correctly. 
 
 const dbSettings = {
@@ -34,14 +34,14 @@ const dbSettings = {
   driver: sqlite3.Database,
 };
 
-Item 3. Go to Installation and Dependencies 
+*Item 3. Go to Installation and Dependencies 
 ## Installation and Dependencies
-Step 1. Clone the repository from GitHub in your directory of choice
-Step 2. Install node by typing "npm install" once you are in the folder using the correct OS command
-Step 3.Sign up and install the heroku server on your choice of OS
-Step 3. Install the dependencies through node
-Step 4. Make sure the server is working on localhost 
-Step 5. Push the server once it works to build it on Heroku
+*Step 1. Clone the repository from GitHub in your directory of choice
+*Step 2. Install node by typing "npm install" once you are in the folder using the correct OS command
+*Step 3.Sign up and install the heroku server on your choice of OS
+*Step 3. Install the dependencies through node
+*Step 4. Make sure the server is working on localhost 
+*Step 5. Push the server once it works to build it on Heroku
 ### Bulma Installation
 Bulma is a modern CSS framework based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
 
