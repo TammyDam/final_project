@@ -34,7 +34,7 @@ const dbSettings = {
   driver: sqlite3.Database,
 };
 
-*Item 3. Go to Installation and Dependencies 
+* Item 3. Go to Installation and Dependencies 
 ## Installation and Dependencies
 * Step 1. Clone the repository from GitHub in your directory of choice
 * Step 2. Install node by typing "npm install" once you are in the folder using the correct OS command
